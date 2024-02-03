@@ -1,9 +1,12 @@
-import { CopyToClickboardButton } from './components/CopyToClickboardButton'
+import { CopyToClipboardButton } from './components/CopyToClipboardButton'
+import './styles/App.css'
+
+const myProfileLink = 'https://github.com/AlexCernas2901'
 
 export function App() {
   return (
-    <div>
-      <CopyToClickboardButton />
+    <div className='app-container'>
+      <CopyToClipboardButton link={myProfileLink} />
     </div>
   )
 }

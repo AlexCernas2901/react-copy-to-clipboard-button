@@ -1,0 +1,44 @@
+.clipboard-span-contanier {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background: #fffefe;
+  border-radius: 5px;
+  box-shadow: #c570e7 0px 0px 10px;
+  gap: 10px;
+}
+
+.clipboard-input {
+  font-family: cascadia code, monospace;
+  border: 1px solid #092b35;
+  cursor: default;
+  pointer-events: none;
+  width: 250px;
+  height: 25px;
+  padding-left: 10px;
+  color: #1e2020;
+  border: 0;
+}
+
+.clipboard-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  color: #fffefe;
+  background: #8b53d0;
+  cursor: pointer;
+  border: 0;
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.clipboard-button:active {
+  background: #9661d5;
+}
+
+.clipboard-span-group-button {
+  padding-right: 10px;
+}

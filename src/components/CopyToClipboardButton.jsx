@@ -9,9 +9,10 @@ export function CopyToClipboardButton({ link }) {
   const [copied, setCopied] = useState(false)
 
   const copyToClipboard = () => {
-    navigator.clipboard.writeText(link)
+    navigator.clipboard.writeText(link) // Copy the link to the clipboard
     setCopied(true)
     setTimeout(() => {
+      // Reset the button after 2 seconds
       setCopied(false)
     }, 2000)
   }

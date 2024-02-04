@@ -7,6 +7,7 @@ export function App() {
   return (
     <div className='app-container'>
       <CopyToClipboardButton link={myProfileLink} />
+      <input type='text' className='paste-clipboard' />
     </div>
   )
 }

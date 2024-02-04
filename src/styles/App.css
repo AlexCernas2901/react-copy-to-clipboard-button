@@ -1,6 +1,23 @@
 .app-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.paste-clipboard {
+  margin-top: 50px;
+  font-family: cascadia code, monospace;
+  font-size: 13px;
+  border: 1px solid #092b35;
+  cursor: default;
+  width: 300px;
+  height: 25px;
+  padding-left: 10px;
+  color: #1e2020;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: #edc3fd 0px 0px 10px;
+  outline: none;
 }

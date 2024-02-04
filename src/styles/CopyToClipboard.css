@@ -11,6 +11,7 @@
 
 .clipboard-input {
   font-family: cascadia code, monospace;
+  font-size: 13px;
   border: 1px solid #092b35;
   cursor: default;
   pointer-events: none;
